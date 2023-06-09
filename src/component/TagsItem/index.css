@@ -1,0 +1,18 @@
+.tasks-list-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.task-paragraph {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'roboto';
+}
+.tag-paragraph {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'roboto';
+  background-color: orange;
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,80 @@
+.task-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: black;
+  padding: 50px;
+}
+.input-label {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+}
+.label {
+  font-size: 18px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.option {
+  height: 30px;
+  width: 300px;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.task-heading {
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #f3aa4e;
+  font-weight: 550;
+}
+.heading {
+  font-size: 24px;
+  font-family: 'roboto';
+  color: #ffffff;
+}
+.btn-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.button-unorder-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: -35px;
+}
+.tags-btn-list {
+  margin-right: 10px;
+}
+.btn-tags {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  border: 1px solid #f3aa4e;
+  border-radius: 5px;
+}
+
+.tasks-unorder-list-card {
+  margin-left: -35px;
+}
+.tags-tasks-list-container {
+  padding-left: 30px;
+}
+.no-task-display-text-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
